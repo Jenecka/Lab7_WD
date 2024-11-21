@@ -1,0 +1,105 @@
+.visitka{
+    width: 1650px;
+    height: 1000px;
+    background-color: rgb(74, 71, 71);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.visitka-image {
+    width: 1700px;
+    height: auto;
+    }
+    
+    .visitka-text {
+    color: #17bb71;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+    }
+    
+    .nav-menu {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    }
+    
+    .nav-menu a {
+    color: yellowgreen;
+    font-family: 'MV Boli', sans-serif;
+    font-size: 24px;
+    border: 2px solid #29f505;
+    padding: 10px 20px;
+    }
+    
+    section {
+    padding: 40px 20px;
+    }
+    
+    #me {
+    background-color: #2f4f4f;
+    }
+    
+    #services {
+    background-color: #0b4141;
+    }
+    
+    #contacts {
+    background-color: #333;
+    }
+    
+    .item2_1, .item2_2, .item2_3, .item2_4 {
+    flex: 1 1 100%;
+    max-width: 100%;
+    border: 2px solid #72924b;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    text-align: center;
+    }
+    
+    hr {
+    height: 3px;
+    background-color: #000000;
+    }
+    
+    .button {
+    border: 2px solid #f0f0f0;
+    padding: 10px 20px;
+    background-color: #6b8e23;
+    color: #f0f0f0;
+    cursor: pointer;
+    }
+    
+    .button:hover {
+    background-color: #556b2f;
+    }
+    
+    .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    }
+    
+    .social-links a {
+    color: #29f505;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'MV Boli', sans-serif;
+    border: 2px solid #29f505;
+    padding: 10px 20px;
+    }
+    
+    .social-links a:hover {
+    background-color: #29f505;
+    color: #333;
+    }
